@@ -1,6 +1,6 @@
 FROM minio/minio
 
-MAINTAINER Carl Mercier <foos@carlmercier.com>
+MAINTAINER Carl Mercier <foss@carlmercier.com>
 
 WORKDIR /go/src/app
 
