@@ -8,7 +8,6 @@ VOLUME ["/export"]
 VOLUME ["/root/.minio"]
 
 EXPOSE 9000
-ENTRYPOINT ["go-wrapper", "run"]
 
 # Necessary for Unraid
-CMD ["server", "/export"]
+CMD ["/usr/bin/minio server", "/export"]
