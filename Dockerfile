@@ -10,4 +10,4 @@ VOLUME ["/root/.minio"]
 EXPOSE 9000
 
 # Necessary for Unraid
-CMD ["/usr/bin/minio server", "/export"]
+CMD ["server", "/export"]
